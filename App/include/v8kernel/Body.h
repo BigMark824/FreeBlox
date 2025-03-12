@@ -1,0 +1,5 @@
+namespace RBX {
+	class Body {
+
+	};
+}
