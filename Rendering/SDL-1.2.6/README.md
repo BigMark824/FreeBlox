@@ -1,0 +1,1 @@
+Extract everything from SDL-1.2.6 here (todo: add links).

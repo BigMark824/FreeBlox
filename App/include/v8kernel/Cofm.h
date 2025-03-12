@@ -1,4 +1,5 @@
 #pragma once
+#include <G3DAll.h>
 
 namespace RBX {
 	class Body;
@@ -10,8 +11,8 @@ namespace RBX {
 		bool dirty;
 		float mass;
 
-		// Vector3 cofmInBody;
-		// Matrix3 moment;
+		G3D::Vector3 cofmInBody;
+		G3D::Matrix3 moment;
 
 		void updateIfDirty();
 

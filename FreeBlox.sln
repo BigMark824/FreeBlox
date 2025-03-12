@@ -7,16 +7,22 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "App", "App\App.vcxproj", "{
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Durango = Debug|Durango
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|Durango = Release|Durango
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Debug|Durango.ActiveCfg = Debug|x64
+		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Debug|Durango.Build.0 = Debug|x64
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Debug|x64.ActiveCfg = Debug|x64
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Debug|x64.Build.0 = Debug|x64
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Debug|x86.ActiveCfg = Debug|Win32
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Debug|x86.Build.0 = Debug|Win32
+		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Release|Durango.ActiveCfg = Release|x64
+		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Release|Durango.Build.0 = Release|x64
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Release|x64.ActiveCfg = Release|x64
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Release|x64.Build.0 = Release|x64
 		{A5247B23-1D5A-4979-A6CE-A3A89DA1C28C}.Release|x86.ActiveCfg = Release|Win32
