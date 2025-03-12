@@ -1,5 +1,5 @@
 # FreeBlox
-### Decompilation of Early Roblox (2007) using RBXGS [RBXGS (ver 0.3.634.0](https://archive.org/download/rbxgssetup/S3FileHandler_RBXGSSetup_0.3.634.0.msi)
+### Decompilation of Early Roblox (2007) using RBXGS (ver 0.3.634.0](https://archive.org/download/rbxgssetup/S3FileHandler_RBXGSSetup_0.3.634.0.msi)
 
 The aim of this project is to restore 2007 Roblox and potentially bring security improvements to its RBXGS component
 
