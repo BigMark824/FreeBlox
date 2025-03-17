@@ -5,24 +5,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="V8Kernel Header">
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9147e39c-c95b-4dd7-aa48-03c430ebc500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\V8Kernel Header">
       <UniqueIdentifier>{1dd997ce-cc00-4edd-b910-b91bf4739330}</UniqueIdentifier>
     </Filter>
-    <Filter Include="V8Kernel">
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b242b4d4-80fc-451a-aff5-17a9680a47c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\V8Kernel">
       <UniqueIdentifier>{b4dc6a0b-bfb2-4df6-b06e-4bacc7dafdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{0e643847-d9e4-4585-9a1d-bb3a79aa5014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util Header">
+      <UniqueIdentifier>{4e26b580-d591-41c9-84ed-5e49f9770af5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\v8kernel\Body.h">
-      <Filter>V8Kernel Header</Filter>
+      <Filter>Header Files\V8Kernel Header</Filter>
     </ClInclude>
     <ClInclude Include="include\v8kernel\Cofm.h">
-      <Filter>V8Kernel Header</Filter>
+      <Filter>Header Files\V8Kernel Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util\IndexArray.h">
+      <Filter>Header Files\Util Header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\v8kernel\Cofm.cpp">
-      <Filter>V8Kernel</Filter>
+      <Filter>Source Files\V8Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="include\v8kernel\Body.cpp">
+      <Filter>Source Files\V8Kernel</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
