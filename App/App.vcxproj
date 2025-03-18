@@ -133,10 +133,12 @@
     <ClInclude Include="include\Util\IndexArray.h" />
     <ClInclude Include="include\v8kernel\Body.h" />
     <ClInclude Include="include\v8kernel\Cofm.h" />
+    <ClInclude Include="include\v8kernel\Link.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\v8kernel\Body.cpp" />
     <ClCompile Include="include\v8kernel\Cofm.cpp" />
+    <ClCompile Include="include\v8kernel\Link.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

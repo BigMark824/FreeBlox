@@ -28,7 +28,7 @@ namespace RBX {
 			}
 		*/
 	}
-	int Body::getNextStateIndex()
+	unsigned int Body::getNextStateIndex()
 	{
 		static int p;
 		int result = ++p;

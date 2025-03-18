@@ -34,12 +34,18 @@
     <ClInclude Include="include\Util\IndexArray.h">
       <Filter>Header Files\Util Header</Filter>
     </ClInclude>
+    <ClInclude Include="include\v8kernel\Link.h">
+      <Filter>Header Files\V8Kernel Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\v8kernel\Cofm.cpp">
       <Filter>Source Files\V8Kernel</Filter>
     </ClCompile>
     <ClCompile Include="include\v8kernel\Body.cpp">
+      <Filter>Source Files\V8Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="include\v8kernel\Link.cpp">
       <Filter>Source Files\V8Kernel</Filter>
     </ClCompile>
   </ItemGroup>

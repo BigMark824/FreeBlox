@@ -1,6 +1,7 @@
 #include <iostream>
-#include <v8kernel/Cofm.h>
 #include <Util/IndexArray.h>
+#include <v8kernel/Cofm.h>
+#include <v8kernel/Link.h>
 // #include <v8kernel/SimBody.h>
 // #include <v8kernel/KernelIndex.h>
 namespace RBX {
@@ -13,17 +14,19 @@ namespace RBX {
 		Body* parent;
 
 		IndexArray<Body, &Body::getIndex> children;
-
-		Cofm* cofm;
-		bool canThrottle;
-		float mass;
 		int stateIndex;
+
+		Link* link;
 
 		Body();
 		~Body();
-		// SimBody* simBody;
-	private:
-		int getNextStateIndex();
+
+		static unsigned int getNextStateIndex();
 		void advanceStateIndex();
+		// SimBody* simBody;
+	protected:
+		Cofm* cofm;
+		bool canThrottle;
+		float mass;
 	};
 }
